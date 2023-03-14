@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "inter";
+    color: #202020;
+  }
+}
+
+.slider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 50%; /* Full-width */
+  height: 20px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+  border-radius: 30px;
+}
+
+.discount {
+  background: url("./assets/img/discount.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  pointer-events: auto;
+  -webkit-appearance: none;
+}
+
+.min-range::-webkit-slider-thumb {
+  background: #fff;
+  border: 1px solid #202020;
+}
+
+.max-range::-webkit-slider-thumb {
+  background: #202020;
+}
+
+.faqs {
+  background: url("./assets/img/faq.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
