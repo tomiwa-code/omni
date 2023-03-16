@@ -1,7 +1,7 @@
 import { BsArrowLeft } from "react-icons/bs";
 import { FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import emptyCartImg from "../../Assets/img/empty-cart.png";
+import emptyCartImg from "../../assets/img/empty-cart.png";
 import { useDispatch, useSelector } from "react-redux";
 import { emptyCart, removeFromCart } from "../../Redux/cartSlice";
 import { loadStripe } from "@stripe/stripe-js";
