@@ -1,7 +1,7 @@
 # Omni (E-commerce)
 
 ## Link
-https://omni.vercel.app/
+https://omni-inky.vercel.app/
 
 ## Structure
 
